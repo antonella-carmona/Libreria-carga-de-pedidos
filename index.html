@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+NKo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Cargar Pedidos</title>
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Delivery De Compras De Libros</h1>
+        <hr>
+        <h3>Datos del pedido</h3>
+
+
+        <div class="datos-pedido">
+            <input type="text" name="Nombre del libro" placeholder="Nombre del libro" id="nombre_libro" autofocus autocomplete="off">
+            <input type="text" name="Nombre del autor del libro" placeholder="Nombre del autor del libro" id="nombre_autor" autofocus autocomplete="off">
+            <input type="text" name="Dirección del comprador" placeholder="Dirección" id="direccion_comprador" autofocus autocomplete="off">
+           
+
+            <div class="btn-container">
+               <strong><button id="cargar">CARGAR</button></strong> 
+                <strong><button id="refrescar"><i class="fas fa-redo-alt fa"></i> REFRESCAR</button></strong>
+
+            </div>
+            <p>Pedido número:<span class="numero_Aleatorio"></span></p>
+
+                <div class="confirmaciones">
+                    <ul id="lista_desordenada">
+
+                    </ul>
+                </div>
+
+            
+        </div>
+    </div>
+    
+
+
+
+
+
+
+    <script src="libreria.js"></script>
+
+
+    <script src="https://kit.fontawesome.com/be6f6f9a32.js" crossorigin="anonymous"></script
+</body>
+</html>

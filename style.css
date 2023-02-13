@@ -1,0 +1,96 @@
+body {
+    height: 100vh;
+    margin: 20px;
+    text-align: center;
+    font-family: 'Noto Sans NKo', sans-serif;
+    background-color: #0a1f44;
+    color: azure;
+}
+
+input{
+    font-size: 1.5rem;
+    text-align: center;
+    height: 25px;
+    padding: 5px 5px 10px;
+    border-bottom: 1px solid;
+}
+
+button{
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding: 15px 20px;
+    margin-left: 15px;
+    background: #ff1e42;
+    border-radius: 5px;
+    border: none;
+}
+button:hover {
+    background: #c3112d;
+ }
+
+input {
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    border-bottom: 1px solid;
+    margin-bottom: 15px;
+}
+button {
+    border: none;
+    /* background: none; */
+    outline: none;
+    color: white;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* usar Flexbox para posicionar el recuadro con los input */
+.datos-pedido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.confirmaciones{
+    background-color: white;
+    color: #1e2432;
+    width: 70%;
+    border-radius: 20px;
+    padding: 12px;
+    margin: 0 auto;
+    min-height: 180px;
+}
+
+/* cómo usar Flexbox para posicionar los botones */
+.btn-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+}
+
+li {
+    margin: 12px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+h3 {
+    font-size: 2em;
+  }  
